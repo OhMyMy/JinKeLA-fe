@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+	<!-- 登录部分 -->
+	<div class="loginArea" id="loginArea">
+		<div class="ui-mask" id="mask"></div>
+		<div class="static-form" id="staticForm">
+			<div class="login-title" id="loginTitle">
+				登录
+				<a href="" class="login-close" id="loginClose"><i></i></a>
+			</div>
+			<form action="" id="Form">
+				<div class="field userName clearfix">
+					<label for="TPL_username"><i></i></label>
+					<input type="text" class="TPL_username" id="TPL_username" placeholder="会员名/邮箱/手机号" maxlength="32" tabindex="1">
+				</div>
+				<div class="field pwd clearfix">
+					<label for="TPL_password"><i></i></label>
+					<input type="text" class="TPL_password" id="TPL_password" placeholder="密码" maxlength="40" tabindex="2">
+				</div>
+				<div class="submit">
+					登录
+				</div>
+				<ul class="entries">
+					<li class="otherLogin" id="otherLogin">
+						<a href="" class="qLogin"><i></i>QQ登录</a>
+						<a href="" class="weiBo"><i></i>微博登录</a>
+					</li>
+				</ul>
+				<div class="login-links">
+					<a href="" class="forget-pwd">忘记密码</a>
+					<a href="" class="register">免费注册</a>
+				</div>
+
+			</form>
+		</div>
+	</div><!-- 登录结束 -->
+</body>
+
+<script src="js/login.js"></script>
+</html>

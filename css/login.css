@@ -1,0 +1,173 @@
+/* 登录部分 */
+
+.loginArea .static-form{
+	position: fixed;
+	z-index: 1000;
+	
+	
+}
+.loginArea .ui-mask{ 
+	width: 100%;height:100%;background: #000;
+	position: absolute;top: 0px;left: 0px;z-index: 500;
+	opacity:0.4; filter: Alpha(opacity=40);
+	/* display: none; */
+}
+
+
+.loginArea .static-form{
+	width:350px;
+	
+	background-color: #FFF;
+	padding-bottom: 8px;
+}
+.loginArea .login-title{
+	height: 45px;
+	line-height: 45px;
+	color: #333;
+	font-size: 18px;
+	text-indent: 16px;
+	background: #F5F5F5;
+	letter-spacing: 4px;
+	cursor: move;
+	-moz-user-select: none;
+	-webkit-user-select:none;
+	-ms-user-select:none;
+	user-select: none;
+}
+
+.loginArea .login-close{
+	
+	float: right;
+	width:43px;
+	height: 43px;
+
+	
+	
+}
+.loginArea .login-close i{
+	width:17px;
+	height: 18px;
+
+	
+	background-image: url('../img/sprite.png');
+	background-repeat:  no-repeat;
+	background-position: -144px -131px;
+}
+.loginArea .login-close:hover > i{
+	background-position: -579px -113px;
+}
+.loginArea form#Form{
+	width: 300px;
+	margin:20px auto 0;
+	
+}
+.loginArea .field{
+	height: 40px;
+	line-height: 40px;
+	margin-top: 20px;
+	width: 100%;
+
+	font-size: 16px;
+	color: #c1c1c1;
+	border:1px solid #bdbdbd;
+	
+
+	
+}
+
+
+.loginArea .field input{
+	float: left;
+
+	width: 254px;
+	height: 30px;
+	padding:5px 4px;
+	
+}
+.loginArea .userName label,
+.loginArea .pwd label{
+	display: inline-block;
+	float: left;
+	width:32px;
+	height: 40px;
+
+}
+
+.loginArea .userName i,
+.loginArea .pwd i{
+	width:24px;
+	height: 22px;
+	
+	background-image: url("../img/sprite.png");
+	background-repeat: no-repeat;
+	margin:10px 0 0 4px;
+
+}
+.loginArea .userName i{
+	background-position: -550px -79px;
+}
+.loginArea .pwd i{
+	background-position: -566px -10px;
+
+}
+
+.loginArea .submit{
+	cursor: pointer;
+	width: 300px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #FFF;
+	background: #3B7AE3;
+	font-size: 18px;
+	letter-spacing: 4px;
+	margin-top:20px;
+}
+.loginArea .submit:hover{
+	background: #1369cd;
+}
+.loginArea .entries{
+	margin-top:26px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 12px;
+	
+	text-align: left;
+
+}
+
+.loginArea .otherLogin a{
+	margin-right: 20px;
+	width: 14px;
+	height: 24px;
+	
+
+}
+.loginArea .otherLogin i{
+	width: 14px;
+	height: 16px;
+
+	background-image: url("../img/sprite.png");
+	background-repeat: no-repeat;
+	vertical-align: middle;
+}
+.loginArea .qLogin i{
+	
+	background-position: -438px -46px;
+	
+}
+.loginArea .weiBo i{
+	background-position: -452px -46px;
+}
+.loginArea .login-links{
+	margin-top:12px;
+	text-align: right;
+	font-size: 12px;
+}
+.loginArea .login-links a{
+	margin-right: 6px;
+}
+.loginArea .otherLogin a:hover,
+.loginArea .login-links a:hover{
+	color: #3b7ae3;
+}

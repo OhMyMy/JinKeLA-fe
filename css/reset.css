@@ -1,0 +1,45 @@
+/* 基本设置 */
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	outline: none;
+	border: none;
+}
+body{
+	font:13px/26px "微软雅黑";
+	color:#222;
+	background-color:#f1f1f1;
+}
+
+a:link,a:visited{
+	text-decoration:none;
+	color:#656565;
+}
+a:hover,a:active{
+	text-decoration:none;
+}
+::selection{
+	background-color:skyblue;
+	color:#fff;
+    text-shadow:none;
+}
+h1,h2,h3,h4,h5,h6,strong,b{
+	font-weight: normal;
+}
+i,b,span{
+	display: inline-block;
+}
+i,b{
+	font-style: normal;
+}
+.clearfix:before,/* 防止margin上下叠加 */
+.clearfix:after{
+    content:"";
+    display:table;
+    /* 触发BFC */;
+}
+
+.clearfix:after{
+    clear:both;
+}

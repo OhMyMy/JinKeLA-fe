@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>结算页</title>
+
+	
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+</head>
+<body>
+	
+	<header>
+		<div class="topBar clearfix">
+			<div class="comWidth">
+				<div class="rightArea">
+					欢迎来到金坷垃！[<a href="javascript:">登录</a>][<a href="">免费注册</a>]
+				</div>
+				<a href="" class="clt"><i></i>收藏金坷</a>
+			</div>
+		</div>
+		<div class="logoBar">
+			<div class="comWidth clearfix">
+				<div class="logo">
+					<a href=""><img src="img/logo3.png" alt="首页"></a>
+				</div>
+				<div class="process">
+					<img src="img/process.png" alt="">
+				</div>
+			</div>
+			
+		</div>
+	</header>
+	<div class="order">
+		<section class="addr">
+			<h3>收货信息</h3>
+			<div class="addrCon">
+				<ul class="addrForm">
+					<li><b>选择地区:</b><span class="selectAddr">北京市 海淀区 五环内<a href="#" class="selectIcon"><i></i></a></span></li>
+					<li><b>详细地址:</b><input type="text" class="detailed" placeholder="最多输入26个汉字"><br></li>
+					<li><b>收 货 人:</b><input type="text" placeholder="最多10个汉字"></li>
+					<li><b>手    机</b><input type="text" placeholder="最多输入26个汉字"> 或固定电话：<input type="text" class="areaCode" placeholder="区号"> - <input type="tel" placeholder="电话号码"> - <input type="text" placeholder="分机号(可选)"></li>
+				</ul>
+				<div class="submit">确认收货地址</div>
+			</div>
+		</section>
+
+		<section class="pay">
+			<h3>支付方式</h3>
+			<div class="payCon">
+				<p><b></b><a href="">微信支付</a><i></i>用微信扫一扫就能支付</p>
+				<p><b></b><a href="">货到付款</a>送货上门后再付款，使用现金或刷银行卡。</p>
+			</div>
+		</section>
+		<section class="invoice">
+			<h3>发票信息</h3>
+			<div class="invoiceCon">
+				<div class="bill"><i></i>需要发票</div>
+				<ul class="billCon">
+					<li><b>发票类型:</b><span class="business">商业零售票<i></i></span></li>
+					<li><b>发票抬头:</b><span class="personal">个人<i></i></span>&nbsp;<input type="text" class="theName" placeholder="阿斯顿"></li>
+				</ul>
+				<div class="save-clear">
+					<span class="save active">保存</span>
+					<span class="clear">取消</span>
+				</div>
+			</div>
+		</section>
+		<section class="list">
+			<h3>选购清单</h3>
+			<div class="listCon">
+				<div class="tbody">
+					<div class="theader">
+						<ul class="trCon clearfix">
+
+							<li><input type="checkbox" class="check-all check"/>全选</li>
+							<li>商品</li>
+							<li>单价</li>
+							<li>数量</li>
+							<li>小计</li>
+							<li>操作</li>
+						</ul>
+					</div>
+					<div class="tr">
+						<ul class="trCon clearfix">
+							<li class="td td-chk"><input class="check-one check" type="checkbox"/></li>
+							<li class="td td-item"><img src="img/car/1.jpg" alt=""/><span>Casio/卡西欧 EX-TR350</span></li>
+							<li class="td td-price">1906.88</li>
+							<li class="td td-amount"><a href="" class="reduce"></a><input class="count-input" type="text" value="1"/><a href="" class="add">+</a></li>
+							<li class="td td-sum">1906.88</li>
+							<li class="td td-op"><a href="" class="delect">删除</a></li>
+						</ul>
+					</div>
+					<div class="tr">
+						<ul class="trCon clearfix">
+							<li class="td td-chk"><input class="check-one check" type="checkbox"/></li>
+							<li class="td td-item"><img src="img/car/2.jpg" alt=""/><span>Canon/佳能 PowerShot SX50 HS</span></li>
+							<li class="td td-price">4396.00</li>
+							<li class="td td-amount"><a href="" class="reduce"></a><input class="count-input" type="text" value="1"/><a href="" class="add">+</a></li>
+							<li class="td td-sum">4396.00</li>
+							<li class="td td-op"><a href="" class="delect">删除</a></li>
+						</ul>
+					</div>
+					<div class="tr">
+						<ul class="trCon clearfix">
+							<li class="td td-chk"><input class="check-one check" type="checkbox"/></li>
+							<li class="td td-item"><img src="img/car/3.jpg" alt=""/><span>Sony/索尼 DSC-WX300</span></li>
+							<li class="td td-price">612.00</li>
+							<li class="td td-amount"><a href="" class="reduce"></a><input class="count-input" type="text" value="1"/><a href="" class="add">+</a></li>
+							<li class="td td-sum">612.00</li>
+							<li class="td td-op"><a href="" class="delect">删除</a></li>
+						</ul>
+					</div>
+					<div class="tr">
+						<ul class="trCon clearfix">
+							<li class="td td-chk"><input class="check-one check" type="checkbox"/></li>
+							<li class="td td-item"><img src="img/car/4.jpg" alt=""/><span>Fujifilm/富士 instax mini 25</span></li>
+							<li class="td td-price">748.22</li>
+							<li class="td td-amount"><a href="" class="reduce"></a><input class="count-input" type="text" value="1"/><a href="" class="add">+</a></li>
+							<li class="td td-sum">748.22</li>
+							<li class="td td-op"><a href="" class="delect">删除</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="tfoot clearfix">
+					<div class="tfoot-lf">
+						<div class="delect-all">清空购物车</div>
+					</div>
+					<div class="tfoot-rt clearfix">
+						<div class="selected">已选商品<span class="selectedTotal">0</span>件</div>
+						<div class="total">合计:￥<span class="priceTotal">0.00</span></div>
+						<div class="closing">结算</div>
+					</div>
+					
+					
+				</div><!-- 购物车 -->
+			</div>
+		</section>
+		
+
+	</div><!-- order结束	 -->	
+	<footer>
+		<p class="ftNav">
+			<a href="">慕课简介</a><i>|</i>
+			<a href="">慕课公告</a><i>|</i>
+			<a href="">招贤纳士</a><i>|</i>
+			<a href="">联系我们</a><i>|</i>
+			<a href="">客服热线：7384-609-571</a>
+		</p>
+		<p class="copyRight">Copyright&copy;2017-2018慕课版权所有&nbsp;&nbsp;&nbsp;粤IPC证B738-4957号</p>
+		<p class="webLogo">
+			<a href=""></a>
+			<a href=""></a>
+			<a href=""></a>
+			<a href=""></a>
+			<a href=""></a>
+		</p>
+	</footer><!-- footer结束 -->
+	
+	<script src="js/jquery-1.8.1.min.js"></script>
+	<script src="js/settlement.js"></script>
+
+</body>
+</html>
+			
+			
